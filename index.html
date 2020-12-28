@@ -7,12 +7,22 @@
     a {
       color: red;
     }
-    div {
+    #exec-bio {
+      background-color: lightgray;
+    }
+    #exec-alt-bio{
+      background-color: orange;
+    }
+    .bio-box {
       border: 1px solid black;
     }
-    div a {
+    .bio-box a {
       color: green;
     }
+    .bio-box-imposter {
+      background-color: azure;
+    }
+
   </style>
 
   <body>
@@ -31,16 +41,16 @@
 
   <h2>I'm an h2</h2>
 
-    <div>
+    <div id="exec-bio" class="bio-box bio-box-imposter">
       <a href="https://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div id="exec-alt-bio" class="bio-box bio-box-imposter">
       <a href="https://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box bio-box-imposter" >
       <a href="https://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box bio-box-imposter">
       <a href="https://example.com/">I'm a link</a>
     </div>
   </body>
