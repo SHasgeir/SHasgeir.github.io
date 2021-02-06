@@ -25,6 +25,8 @@ a {
   color: #f00;
 }
 
+
+
 /* HEADER STYLES */
 
 .header {
@@ -35,10 +37,8 @@ a {
   z-index: 40;
 }
 
-.header-nav {
-  float: right;
-  padding: 5.5vh 60px 0 0;
-
+.header-nav a {
+  color: #fff;
 }
 
 .header-logo {
@@ -53,6 +53,11 @@ a {
   width: 10vh;
 }
 
+.header-nav {
+  float: right;
+  padding: 5.5vh 60px 0 0;
+}
+
 .header-nav > li {
   display: inline-block;
   margin-left: 1em;
@@ -63,16 +68,15 @@ a {
   padding-left: 1em;
 }
 
-.header-nav a {
-  color: #fff;
+.nav-links a {
   font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.header-nav a:hover,
-.header-nav a:active {
+.nav-links a:hover,
+.nav-links a:active {
   color: #ed6e2f;
 }
 
@@ -93,6 +97,36 @@ a {
   background-color: #ed6e2f;
 }
 
+/* FOOTER STYLES */
+.footer {
+  background-color: #000;
+  padding: 10vh 0 15vh;
+  text-align: center;
+}
+
+.footer-logo img {
+  width: 50px;
+}
+
+.footer h3 {
+  color: #fff;
+  padding-top: 1.5em;
+  text-transform: uppgercase;
+}
+
+.footer h3 span {
+  color: #aaa;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin: 2em 1em 0;
+  color: #ccc;
+}
+
+.footer-nav a {
+  color: #ccc;
+}
 
 
 /* HERO STYLES */
